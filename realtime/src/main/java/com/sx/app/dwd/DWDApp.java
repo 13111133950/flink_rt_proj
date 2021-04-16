@@ -22,8 +22,8 @@ public class DWDApp extends BaseApp {
         LogApp logApp = new LogApp(env);
         logApp.execute();
 
-//        DbApp dbApp = new DbApp(env);
-//        dbApp.execute();
+        DbApp dbApp = new DbApp(env);
+        dbApp.execute();
 
     }
 }

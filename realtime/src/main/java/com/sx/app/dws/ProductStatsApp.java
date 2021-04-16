@@ -243,6 +243,7 @@ public class ProductStatsApp extends BaseApp {
                             }
                         }, 60, TimeUnit.SECONDS);
 
+        productStatsWithTmDstream.print("》》》");
         //TODO 6.写入clickhouse
         productStatsWithTmDstream.addSink(
                 ClickHouseUtil.<ProductStats>getJdbcSink(

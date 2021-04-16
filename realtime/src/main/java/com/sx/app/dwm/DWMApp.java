@@ -16,16 +16,16 @@ public class DWMApp extends BaseApp {
     }
     @Override
     public void execute() {
-        UVApp uvApp = new UVApp(env);
-        uvApp.execute();
-
-        UserJumpApp userJumpApp = new UserJumpApp(env);
-        userJumpApp.execute();
-
-//        OrderWideApp orderWideApp = new OrderWideApp(env);
-//        orderWideApp.execute();
+//        UVApp uvApp = new UVApp(env);
+//        uvApp.execute();
 //
-//        PayWideApp payWideApp = new PayWideApp(env);
-//        payWideApp.execute();
+//        UserJumpApp userJumpApp = new UserJumpApp(env);
+//        userJumpApp.execute();
+
+        OrderWideApp orderWideApp = new OrderWideApp(env);
+        orderWideApp.execute();
+
+        PayWideApp payWideApp = new PayWideApp(env);
+        payWideApp.execute();
     }
 }

@@ -18,11 +18,11 @@ public class DWSApp extends BaseApp {
     }
     @Override
     public void execute() {
-        VisitorStatsApp  visitorStatsApp = new VisitorStatsApp (env);
-        visitorStatsApp.execute();
+//        VisitorStatsApp  visitorStatsApp = new VisitorStatsApp (env);
+//        visitorStatsApp.execute();
 
-//        ProductStatsApp productStatsApp = new ProductStatsApp(env);
-//        productStatsApp.execute();
+        ProductStatsApp productStatsApp = new ProductStatsApp(env);
+        productStatsApp.execute();
 //
 //        ProvinceStatsSqlApp provinceStatsSqlApp = new ProvinceStatsSqlApp(env, tabEnv);
 //        provinceStatsSqlApp.execute();
